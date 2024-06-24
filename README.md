@@ -11,3 +11,9 @@
 ## Acessar o container
 
 `docker exec -it php-xdebug bash`
+
+## Executar a aplicação
+
+`http://localhost:8080`
+
+### Verificar os resultados na pasta profiles
