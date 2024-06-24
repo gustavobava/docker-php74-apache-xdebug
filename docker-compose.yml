@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  php-apache:
+    build: .
+    volumes:
+      - ./src:/var/www/html
+      - ./profiles:/var/www/html/profiles
+    ports:
+      - "8080:80"
+    container_name: php-xdebug
